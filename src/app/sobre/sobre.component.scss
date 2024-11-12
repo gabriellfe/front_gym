@@ -1,0 +1,44 @@
+.ts_item .ti_text p {
+	color: #fefefe;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.ts_item .ti_text h5 {
+	color: #ffffff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.ts_item .ti_text .tt-rating i {
+	font-size: 12px;
+	color: #d49d09;
+}
+
+.ts-slider .col-lg-4 {
+	max-width: 100%;
+}
+
+.ts-slider.owl-carousel .owl-dots {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.ts-slider.owl-carousel .owl-dots button {
+	height: 4px;
+	width: 20px;
+	background: #5c5c5c;
+	margin-right: 15px;
+	-webkit-transform: skewY(-5deg);
+	-ms-transform: skewY(-5deg);
+	transform: skewY(-5deg);
+}
+
+.ts-slider.owl-carousel .owl-dots button.active {
+	background: #f36100;
+}
+
+.ts-slider.owl-carousel .owl-dots button:last-child {
+	margin-right: 0;
+}

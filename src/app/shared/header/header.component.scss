@@ -1,0 +1,41 @@
+.app-header {
+  button {
+    margin: 0 16px;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar {
+    background-color: black;
+    color: white;
+    padding: 0 256px;
+    height: 110px;
+    align-items: start;
+  }
+
+  .links-toolbar > * {
+    margin-right: 20px;
+    margin-top: 35px;
+  }
+
+  .links-toolbar > *:first-child {
+    margin-right: 0;
+  }
+
+  img {
+    vertical-align: middle;
+    width: 110px;
+    height: 110px;
+  }
+
+  .mat-mdc-outlined-button:not(:disabled) {
+    border-color: #da9234;
+    color: #da9234;
+  }
+
+}
+
+
+
